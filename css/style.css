@@ -101,7 +101,7 @@ header{
 
 .navTitle{
   color: var(--Very-Dark-Blue-Text);
-  font-size: 28px;
+  font-size: 1.75rem;
   transition: color .4s;
 }
 
