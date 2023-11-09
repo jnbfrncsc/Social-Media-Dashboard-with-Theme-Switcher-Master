@@ -78,6 +78,7 @@ img{
 header{
   padding: 37px 0 9.6rem;
   background-color: var(--Very-Pale-Blue-Top-BG-Pattern);
+  transition: background 0.4s;
 }
 
 .innerWrap{
@@ -124,7 +125,6 @@ header{
   background: var(--Toggle);
   cursor: pointer;
   align-items: center;
-  /* justify-content: flex-end; */
   border-radius: 20px;
   transition: color .4s;
 }
@@ -182,16 +182,6 @@ header{
 .twtSct{
   border-top: 5px solid var(--Twitter);
 }
-/* 
-.igSct{
-  border-top: 5px solid transparent;
-  background-image: linear-gradient(#f0f2fa, #f0f2fa), linear-gradient(90deg, hsl(37, 97%, 70%) 0%, hsl(329, 70%, 58%) 100%);
-  background-origin: border-box;
-  border-image-slice: 1;
-  background-clip: padding-box, border-box;
-  border-radius: 5px;
-  transition: color 0.4s;
-} */
 
 .igSct{
   position: relative;
